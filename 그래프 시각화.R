@@ -9,7 +9,7 @@ theme_set(theme_bw()) # 테마 설정
 
 data("midwest", package = "ggplot2")
 
-# 데이터 프레암 구조 확인
+# 데이터 프레임 구조 확인
 head(midwest)
 
 gg <- ggplot(midwest, aes(x=area, y=poptotal)) + # 축 설정
